@@ -95,6 +95,11 @@ article {
     padding: 8px;
 }
 
+h2 {
+    text-align: center;
+    border: 2px solid #9b943e;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
