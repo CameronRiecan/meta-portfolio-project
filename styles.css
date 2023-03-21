@@ -28,3 +28,11 @@ nav ul {
 nav li {
     display: inline-block;
 }
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
