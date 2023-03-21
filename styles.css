@@ -92,19 +92,30 @@ section {
 
 article {
     flex: 1;
+    padding: 8px;
 }
 
 footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 20px;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
 }
 
 footer div {
+    display: flex;
     flex: 1;
+    justify-content: center; 
 }
 
 footer img {
-    max-width: 50%;
+    max-width: 45%;
+    justify-self: center;
+}
+
+div > p {
+    display: flex;
+    justify-self: center;
 }
