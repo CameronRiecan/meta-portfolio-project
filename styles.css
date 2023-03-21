@@ -96,8 +96,15 @@ article {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
 }
 
 footer div {
     flex: 1;
+}
+
+footer img {
+    max-width: 50%;
 }
