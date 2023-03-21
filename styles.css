@@ -33,7 +33,7 @@ nav ul {
 	font-size: 2rem;
 }
 
-nav li {
+nav a {
     text-align: center;
 	background-color: #495e57;
 	width: auto;
@@ -42,11 +42,26 @@ nav li {
 	border-radius: 5%;
 	border-color: #f3cb14;
 	border-style: solid;
+    text-decoration: none;
 }
 
-nav a {
+nav a:link {
     color: #EDEFEE;
-    text-decoration: none;
+}
+
+nav a:visited {
+    color: #EDEFEE;
+    background-color: #9b943e;
+}
+
+nav a:hover {
+    color: #495e57;
+    background-color: #EDEFEE;
+}
+
+nav a:active {
+    color: #495e57;
+    background-color: #EDEFEE;
 }
 
 section {
