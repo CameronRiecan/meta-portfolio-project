@@ -104,6 +104,7 @@ article {
     transform: scale(1.05);
     transition: 1.3s;
 }
+
 .banner {
     color: #495e57;
     background-color: #f3cb14;
@@ -138,8 +139,6 @@ h2 {
 footer {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
     padding: 5px;
     margin: auto;
 }
@@ -155,7 +154,7 @@ footer img {
     justify-self: center;
 }
 
-div > p {
+footer p {
     display: flex;
     align-items: center;
 }
