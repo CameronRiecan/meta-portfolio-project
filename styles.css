@@ -95,6 +95,13 @@ article {
     padding: 8px;
 }
 
+.banner {
+    color: #495e57;
+    background-color: #f3cb14;
+    border: 5px solid #495e57;
+    margin: 10px auto 15px;
+}
+
 .lemonPhotos {
     text-align: center;
 }
