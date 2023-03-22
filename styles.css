@@ -100,6 +100,11 @@ article {
     background-color: #f3cb14;
     border: 5px solid #495e57;
     margin: 10px auto 15px;
+    padding: 30px;
+}
+
+.banner h1 {
+    margin: 15px auto 25px;
 }
 
 .lemonPhotos {
