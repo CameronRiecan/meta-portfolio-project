@@ -95,7 +95,17 @@ article {
     padding: 8px;
 }
 
+.lemonPhotos {
+    text-align: center;
+}
+
+.lemonPhotos img {
+    width: 30px;
+}
+
 h2 {
+    color: #EDEFEE;
+    background-color: #495e57;
     text-align: center;
     border: 2px solid #9b943e;
 }
