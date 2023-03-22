@@ -95,6 +95,13 @@ article {
     padding: 8px;
 }
 
+.animate {
+    transition: transform .5s ease-out;
+}
+.animate:hover {
+    transform: scale(1.05);
+    transition: 1.3s;
+}
 .banner {
     color: #495e57;
     background-color: #f3cb14;
