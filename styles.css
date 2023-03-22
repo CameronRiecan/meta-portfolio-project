@@ -107,6 +107,10 @@ article {
     margin: 15px auto 25px;
 }
 
+main a {
+    text-decoration: none;
+}
+
 .lemonPhotos {
     text-align: center;
 }
