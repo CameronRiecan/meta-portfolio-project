@@ -155,5 +155,5 @@ footer img {
 
 div > p {
     display: flex;
-    justify-self: center;
+    align-items: center;
 }
