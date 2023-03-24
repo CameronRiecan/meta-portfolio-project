@@ -1,160 +1,153 @@
-/* CSS style sheet for little lemon restaurant */
+/* CSS style sheet for Little Lemon Restaurant */
 
 body {
-    background-color: #EDEFEE;
+    background-color: #edefee;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 3rem 5% 3rem 5%;
-}
-
-h1 {
+    margin: 3rem 5%;
+  }
+  
+  h1 {
     font-size: 3rem;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 2rem;
-}
-
-header img {
+  }
+  
+  header img {
     max-width: 100%;
-}
-
-.imgSwitch {
+  }
+  
+  .imgSwitch {
     display: inline-block;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     height: auto;
-}
-
-.switch {
+  }
+  
+  .switch {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
-}
-
-.imgSwitch:hover .switch {
+  }
+  
+  .imgSwitch:hover .switch {
     display: inline;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-	justify-content: center;
-	padding-top: 20px;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	font-size: 2rem;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
     gap: 5px;
-}
-
-nav li {
+  }
+  
+  nav li {
     margin: 30px;
-}
-
-nav a {
+  }
+  
+  nav a {
     text-align: center;
     flex: 1;
-	background-color: #495e57;
-	width: auto;
+    background-color: #495e57;
+    width: auto;
     padding: 20px;
-	margin-right: 1.5px;
-	border-radius: 5%;
-	border-color: #f3cb14;
-	border-style: solid;
+    margin-right: 1.5px;
+    border-radius: 5%;
+    border-color: #f3cb14;
+    border-style: solid;
     text-decoration: none;
-}
-
-nav a:link {
-    color: #EDEFEE;
-}
-
-nav a:visited {
-    color: #EDEFEE;
+    color: #edefee;
+  }
+  
+  nav a:visited {
     background-color: #9b943e;
-}
-
-nav a:hover {
+  }
+  
+  nav a:hover,
+  nav a:active {
     color: #495e57;
-    background-color: #EDEFEE;
-}
-
-nav a:active {
-    color: #495e57;
-    background-color: #EDEFEE;
-    box-shadow: 0px 0px 10px #495e57;
+    background-color: #edefee;
+    box-shadow: 0 0 10px #495e57;
     transition: box-shadow 0.2s ease-in-out;
-}
-
-section {
+  }
+  
+  section {
     display: flex;
-}
-
-article {
+  }
+  
+  article {
     flex: 1;
     padding: 8px;
-}
-
-.animate {
-    transition: transform .5s ease-out;
-}
-.animate:hover {
+  }
+  
+  .animate {
+    transition: transform 0.5s ease-out;
+  }
+  
+  .animate:hover {
     transform: scale(1.05);
     transition: 1.3s;
-}
-
-.banner {
+  }
+  
+  .banner {
     color: #495e57;
     background-color: #f3cb14;
     border: 5px solid #495e57;
     margin: 10px auto 15px;
     padding: 30px;
-}
-
-.banner h1 {
+  }
+  
+  .banner h1 {
     margin: 15px auto 25px;
-}
-
-main a {
+  }
+  
+  main a {
     text-decoration: none;
-}
-
-.lemonPhotos {
+  }
+  
+  .lemonPhotos {
     text-align: center;
-}
-
-.lemonPhotos img {
+  }
+  
+  .lemonPhotos img {
     width: 30px;
-}
-
-h2 {
-    color: #EDEFEE;
+  }
+  
+  h2 {
+    color: #edefee;
     background-color: #495e57;
     text-align: center;
     border: 2px solid #9b943e;
-}
-
-footer {
+  }
+  
+  footer {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     margin: auto;
-}
-
-footer div {
+  }
+  
+  footer div {
     display: flex;
     flex: 1;
-    justify-content: center; 
-}
-
-footer img {
+    justify-content: center;
+  }
+  
+  footer img {
     max-width: 45%;
     justify-self: center;
-}
-
-footer p {
+  }
+  
+  footer p {
     display: flex;
     align-items: center;
-}
+  }
+  
