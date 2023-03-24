@@ -82,6 +82,12 @@ body {
   section {
     display: flex;
   }
+
+  section.animate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
   article {
     flex: 1;
